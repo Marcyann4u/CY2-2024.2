@@ -1,0 +1,86 @@
+*, *::after,  *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.img{
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;    
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.title{
+    text-align: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem;
+}
+
+.formulario .forms-input{
+    width: 275px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.formulario a{
+    align-self: flex-end;
+}
+.formulario .btn{
+    background-color: chocolate;
+    color: white;
+}
+.formulario div{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    justify-content: space-between;
+}
+
+.formulario div .line{
+    display: inline-block;
+    background-color: black;
+    width: 44%;
+    height: 1px;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media .social-img{
+    width: 50px;
+    padding: 0.74rem;
+    border-radius: 10px;
+    border: solid 1px black;
+    height: 50px;
+}
+
+.social-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

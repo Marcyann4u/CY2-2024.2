@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+
+
+*,*::after , *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: blanchedalmond;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-img{
+    width: 100px;
+    overflow: hidden;
+}
+
+.home-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-links{
+    display: flex;
+    gap: 3rem;
+
+}
+
+.nav-links a{
+text-decoration: none;
+columns: rgb(0, 0, 0);
+font-size: 1.15rem;
+}
+
+.home-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    background-image: url("https://guiaviajarmelhor.com.br/wp-content/uploads/2022/09/melhores-sorveterias.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-content h1 {
+    color: rgb(246, 190, 116);
+    max-width: 300px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+
+}
+
+.home-content button{
+    color: rgb(252, 0, 0);
+    border-radius: 15%;
+    font-family: "Dancing Script", cursive;
+    background-color: rgba(255, 179, 0, 0.968);
+    border-color: rgb(252, 0, 0);
+    font-size: 1.2rem;
+    transition: all 0.5s ease-in-out;
+    margin-top: 1.5rem;
+}
+.home-content button:hover{
+    background-color: rgb(0, 0, 0);;
+    color:rgba(255, 179, 0, 0.968);
+    cursor: pointer;
+}
+
+.second-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+    gap: 2rem;
+}
+.second-content-img{
+    width: 550px;
+    overflow: hidden;
+}
+
+
+.second-content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-content-text {
+    font-size: 1.25rem;
+    max-width: 300px;
+    color: rgb(243, 171, 64);
+    font-family: "Agu Display", serif;
+}
+
+.cardapiop1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardapiop1 .cardapio-img{
+    width: 300px;
+    
+}
+
+.cardapio-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardapio-title{
+    font-size: 40px;
+    color: rgb(221, 150, 57);
+    width: 400px;
+}
+
+.cardapiop2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-img{
+    max-width: 200px;
+    height: 12rem;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-txt p{
+    font-size: 20px;
+    color: brown;
+    margin-top: 5px;
+}
+
+.cardapio-card{
+    margin-top: 40px;
+
+}
+
+.card-txt{
+    margin-top: 10px;
+    max-width: 200px;
+}    
+
+
+.rodape-1{
+display: flex;
+}
+
+.rodape-div{
+
+    margin-left: 1rem;
+}
+
+.footer-img{
+width: 7rem;
+height: 7rem;
+
+}
+
+.sla{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .social-img1{
+    width: 3rem;
+    height: 3rem;
+    border-style: solid;
+
+    border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  }
+
+  .sla1{
+   display: flex;
+   gap: 20px;
+   border: 60%;
+}
+
+.sla2{
+display: flex;
+}
+
+
+
+footer {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;  /* Alinha o título e o conteúdo ao centro verticalmente */
+    justify-content: flex-end; 
+}
+
+.footer-content h1 {
+    margin-right: 20px;  /* Adiciona um espaçamento entre o título e o conteúdo */
+    font-size: 24px;
+}
+
+.footer-info {
+    font-size: 16px;
+}
+
+.footer-info p {
+    margin: 5px 0;  /* Espaçamento entre os parágrafos */
+}
+
+.imput1{
+    align-items: flex-start;
+}
+
+.sla3{
+    position: relative;
+}
+
+
+#butao{
+    background-color: rgb(72, 73, 73);
+    position: absolute;
+    left: 314px;
+    border: 2px solid rgb(9, 9, 9);
+  border-radius: 4px;
+}
+
+.sla4{
+    margin-top: 1rem;
+    border-top: #fff 1px solid;
+
+  padding: 20px;
+  border-top: solid 2pw wi;
+  text-align: center;
+}
+

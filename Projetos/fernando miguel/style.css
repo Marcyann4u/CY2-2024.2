@@ -1,0 +1,94 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.img{
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.title{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem;
+}
+
+.formulario input{
+    width: 300px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.formulario a{
+    align-self: flex-end;
+}
+
+.formulario input2{
+    background-color: brown;
+    color: white;
+}
+
+.formulario div{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    justify-content: space-between;
+}
+.line-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.line-div .line{
+    background-color: black;
+    width: 140px;
+    height: 1px;
+}
+
+.social{
+    padding-top: 10px;
+    display: flex;
+}
+
+.social .social-img{
+    width: 50px;
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.social-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-img{
+    width: 100px;
+    overflow: hidden;
+}
+.home-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-links{
+    display: flex;
+    gap: 3rem;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
+}
+
+.home-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 82vh;
+    background-image: url("https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2022/09/06/istock-1313079918-sokmkksb767p.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-content h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+    max-width: 300px;
+    font-size: 2rem;font-family: "DM Sans", sans-serif;
+}
+.home-content h1 span{
+    color: brown;
+}
+
+.home-content button{
+    font-family:"DM Sans", sans-serif;
+    background-color: white;
+    color: black;
+    border-color: transparent;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+    .home-content button:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+.second-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+    gap: 2rem;
+
+}
+.second-content-img{
+    width: 550px;
+    overflow: hidden;
+}
+
+
+
+.second-content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.second-content-text{
+    font-size: 1.25rem;
+    max-width: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #fffffff5;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.text-1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: rgb(165, 87, 42);
+}
+.social-media-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+ .insta img {
+    width: 55px; 
+    height: auto;
+}
+
+.youtube img {
+    width: 60px;  
+    height: auto; 
+}
+
+footer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.section-cardapio{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-img{
+    width: 200px;
+    height: 300px;
+    border: solid 2 px rgb(174, 85, 37);
+}
+
+.card-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.titulo-produto{
+    font-size: 20px;
+    color: black;
+    margin-top: 5px;
+}
+.preco-produto{
+    font-size: 18px;
+    color: black;
+    margin-top: 40px;
+}
+
+.cardapio-card{
+    margin-top: 40px;
+}
+.card-txt{
+    margin-top: 10px;
+    max-width: 200px;
+}
